@@ -30,7 +30,8 @@ I connected the ESP32 to the hall effect sensor with wire connectors and some so
 (wiring diagram here)
 
 ## Software
-I wanted the ESP32 to send a WhatsApp message to my phone whenever it detects a change in the state of the door. So, I decided to create a continuous loop that compares a prior state to a current state, and sends a message to my phone when the prior and current state differ. The two possible states in this situation are an open door (no hall effect sensor detected) and a closed door (hall effect sensor detected). In addition to sending a message to my phone, the ESP32 gives a visual indicator as to whether it detects a closed or open door state through controllng its neopixel. The neopixel LED blinks green if it detects a closed door, and a flashes red if it detects an open door.
+I wanted the ESP32 to send a WhatsApp message to my phone whenever it detects a change in the state of the door. So, I decided to create a continuous loop that compares a prior state to a current state, and sends a message to my phone when the prior and current state differ. The two possible states in this situation are an open door (no hall effect sensor detected) and a closed door (hall effect sensor detected). In addition to sending a message to my phone, the ESP32 gives a visual indicator as to whether it detects a closed or open door state through controllng its neopixel. The neopixel LED blinks green if it detects a closed door, and a flashes red if it detects an open door. Finally, in order to send messages from the ESP32 to my phone, the program on the microcontroller connects to the home Wifi to access the internet, and uses CallMeBot's API in order to send the message to my phone.
+
 (add code pic here)
 (add video)
 
