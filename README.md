@@ -14,7 +14,27 @@ Since the garage (especially the specific corner of the garage) always gets dust
 I was quite impressed with how well it printed the engraved "ESP32" on the cover, it turned out great!
 (Insert 3dp cover here)
 
-Next, I wanted a mounting system that provided a mounting platform for the ESP32 case and the wired half of the hall effect sensor. I also wanted to make sure that this system could mount to the rolling track of the door, so it was time for a home depot run.
+Next, I wanted a mounting system that provided a mounting platform for the ESP32 case and the wired half of the hall effect sensor. I CADded a mounting system that achieved these goals while also fitting the size constraints needed to fit in the small corner of the door. 
+(Insert mounting system here)
+
+I decided to put a 3M velcro lock to mount the ESP32 case to the mounting system.
+
+Unfortunately, I didn't take the additional electrical components required for the ESP32 into account when designing the ESP32 casing, so the casing fit was a bit... interesting. Learning experience! 
+
+Finally, in order to make sure the unwired portion of the sensor is close to the wired portion of the sensor, I used a wood block and mounted the unwired part of the sensor onto it with two wood screws to hold it in place.
+
+With the hardware done, it was time to move onto the electrical and software components of the project.
+
+## Electrical
+I connected the ESP32 to the hall effect sensor with wire connectors and some soldering. This was my first time soldering, so I was really excited. 
+(wiring diagram here)
+
+## Software
+I wanted the ESP32 to send a WhatsApp message to my phone whenever it detects a change in the state of the door. So, I decided to create a continuous loop that compares a prior state to a current state, and sends a message to my phone when the prior and current state differ. The two possible states in this situation are an open door (no hall effect sensor detected) and a closed door (hall effect sensor detected). In addition to sending a message to my phone, the ESP32 gives a visual indicator as to whether it detects a closed or open door state through controllng its neopixel. The neopixel LED blinks green if it detects a closed door, and a flashes red if it detects an open door.
+(add code pic here)
+(add video)
+
+
 
 
 
