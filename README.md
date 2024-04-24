@@ -9,7 +9,7 @@ In January, I unboxed my new Prusa MK3s+ 3D Printer (I got the kit, so I could l
 (Insert 3D Printer image here)
 
 Since the garage (especially the specific corner of the garage) always gets dusty fast, my first priority was to create a case for the ESP32 in order to ensure it was shielded from the elements. I used onshape to CAD a 3D printed case and cover for it, and then set my new 3D printer to do some forced labor for me at 3 in the morning. 
-![3DPrinted ESP32 Cover](3dprints/Images/bottomboximg)
+![3DPrinted ESP32 Cover](3dprints/Images/bottomboximg.png)
 
 I was quite impressed with how well it printed the engraved "ESP32" on the cover, it turned out great!
 (Insert 3dp cover here)
@@ -26,7 +26,7 @@ Finally, in order to make sure the unwired portion of the sensor is close to the
 With the hardware done, it was time to move onto the electrical and software components of the project.
 
 ## Electrical
-I connected the ESP32 to the hall effect sensor with wire connectors and some soldering. This was my first time soldering, so I was really excited. 
+I connected the ESP32 to the hall effect sensor with wire connectors and some soldering. This was my first time soldering, so I was really excited.  
 (wiring diagram here)
 
 ## Software
