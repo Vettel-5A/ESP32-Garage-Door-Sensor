@@ -5,13 +5,19 @@ Whenever I step inside the house after playing basketball in my driveway, my par
 Using an ESP32 microcontroller, along with a hall effect sensor, I decided to create a garage door notification system, in which I would be notified whenever the state of the garage door changes (ex. from open to closed or vice versa). 
 
 ## Hardware
-In January, I unboxed my new Prusa MK3s+ 3D Printer (I got the kit, so I could learn how all the parts fit together so it would be easier to fix when it needs maintenance). However, me being the busy junior I am, never got a chance to finish it. So, I spent the first day of my Spring Break racing to finish the printer. And finally, at 1 in the morning on Sunday, it was ready to go.
+In January, I began building my new Prusa MK3s+ 3D Printer. However, me being the busy junior I am, never got a chance to finish it. So, I spent the first day of my Spring Break racing to finish the printer. And finally, at 1 in the morning on the Sunday before break week, it was ready to go.
+<p align="left">
+  <img src="3dprints/Images/3dprinter.jpg" width=50% align="center" />
+</p>
+<p align="right">
+  <img src="3dprints/Images/IMG_0014.JPG" width=50% align="center" />
+</p>
+
+Since the garage (especially the specific corner of the garage) always gets dusty fast, and to protect the ESP32 in general, my first priority was to create a case for the ESP32 in order to ensure it was shielded from the elements. I used onshape to CAD a 3D printed case and cover for it, and then set my new 3D printer to work at 3 in the morning. 
+![3DPrinted ESP32 Cover](3dprints/Images/bottomboximg.png)
 <p align="center">
   <img src="3dprints/Images/3dprinter.jpg" width=50% align="center" />
 </p>
-
-Since the garage (especially the specific corner of the garage) always gets dusty fast, my first priority was to create a case for the ESP32 in order to ensure it was shielded from the elements. I used onshape to CAD a 3D printed case and cover for it, and then set my new 3D printer to work at 3 in the morning. 
-![3DPrinted ESP32 Cover](3dprints/Images/bottomboximg.png)
 
 I was quite impressed with how well the parts were printed, esepecially with the engraved "ESP32" on the cover. They both turned out great!
 ![3D Printed Parts](3dprints/Images/printed_parts.jpg)
