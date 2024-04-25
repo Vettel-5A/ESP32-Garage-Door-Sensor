@@ -34,11 +34,13 @@ Finally, in order to make sure the unwired portion of the sensor is close to the
 With the hardware done, it was time to move onto the electrical and software components of the project.
 
 ## Electrical
-I connected the ESP32 to the hall effect sensor with wire connectors and some soldering. This was my first time soldering, so I was really excited.  
+I connected the ESP32 to the hall effect sensor with wire connectors and some soldering. This was my first time soldering, so I was really excited. 
 (wiring diagram here)
 
 ## Software
 I wanted the ESP32 to send a WhatsApp message to my phone whenever it detects a change in the state of the door. So, I decided to create a continuous loop that compares a prior state to a current state, and sends a message to my phone when the prior and current state differ. The two possible states in this situation are an open door (no hall effect sensor detected) and a closed door (hall effect sensor detected). In addition to sending a message to my phone, the ESP32 gives a visual indicator as to whether it detects a closed or open door state through controllng its neopixel. The neopixel LED blinks green if it detects a closed door, and a flashes red if it detects an open door. Finally, in order to send messages from the ESP32 to my phone, the program on the microcontroller connects to the home Wifi to access the internet, and uses CallMeBot's API in order to send the message to my phone.
+
+Looking at the pinout diagram on the ESP32 (from the Adafruit website https://learn.adafruit.com/adafruit-esp32-feather-v2/pinouts) I used pin 2 to control the power and color of the Neopixel LED on the ESP32, and pin 34 to read from the hall effect sensor. 
 
 (add code pic here)
 (add video)
