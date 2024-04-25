@@ -42,7 +42,7 @@ I wanted the ESP32 to send a WhatsApp message to my phone whenever it detects a 
 
 Looking at the pinout diagram on the ESP32 (from the Adafruit website https://learn.adafruit.com/adafruit-esp32-feather-v2/pinouts) I used pin 2 to control the power and color of the Neopixel LED on the ESP32, and pin 34 to read from the hall effect sensor. 
 
-(add code pic here)
+![Garage Door Sensor Code](garageDoorSensor.py)
 (add video)
 
 
