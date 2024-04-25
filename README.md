@@ -10,7 +10,7 @@ In January, I began building my new Prusa MK3s+ 3D Printer. However, me being th
   <img src="3dprints/Images/3dprinter.jpg" width=50% align="center" />
 </p>
 <p align="right">
-  <img src="3dprints/Images/IMG_0014.JPG" width=50% align="center" />
+  <img src="3dprints/Images/IMG_0114.JPG" width=50% align="center" />
 </p>
 
 Since the garage (especially the specific corner of the garage) always gets dusty fast, and to protect the ESP32 in general, my first priority was to create a case for the ESP32 in order to ensure it was shielded from the elements. I used onshape to CAD a 3D printed case and cover for it, and then set my new 3D printer to work at 3 in the morning. 
