@@ -1,5 +1,6 @@
 # ESP32-Garage-Door-Sensor
 
+<p align="center">
 Whenever I step inside the house after playing basketball in my driveway, my parents always ask me: "Did you close the garage door?" It's always a painful and unnecessary task for me to go back and check, so I decided to do something to end this chronic misery. 
 
 Using an ESP32 microcontroller, along with a hall effect sensor, I decided to create a garage door notification system, in which I would be notified whenever the state of the garage door changes (ex. from open to closed or vice versa). 
@@ -34,6 +35,8 @@ I wanted the ESP32 to send a WhatsApp message to my phone whenever it detects a 
 
 (add code pic here)
 (add video)
+
+</p>
 
 
 
