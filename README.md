@@ -18,12 +18,11 @@ Since the garage (especially the specific corner of the garage) always gets dust
   <img src="3dprints/Images/printed_parts.jpg" width=49% align="center" />
 </p>
 
-Next, I wanted a mounting system that provided a mounting platform for the ESP32 case and the wired half of the hall effect sensor. I CADded a mounting system that achieved these goals while also fitting the size constraints needed to fit in the small corner of the door. 
-(Insert mounting system here)
-
-I decided to put a 3M velcro lock to mount the ESP32 case to the mounting system.
-
-Unfortunately, I didn't take the additional electrical components required for the ESP32 into account when designing the ESP32 casing, so the casing fit was a bit... interesting. Learning experience! 
+Next, I wanted a mounting system that provided a mounting platform for the ESP32 case and the wired half of the hall effect sensor. I CADded a mounting system that achieved these goals while also fitting the size constraints needed to fit in the small corner of the door. In order to mount the ESP32 and case to the mounting system, I decided to put a 3M velcro lock.
+<p align="left">
+  <img src="3dprints/Images/SensorMountimg.png" width=49% align="center" />
+  <img src="3dprints/Images/MountSystemIRL.jpg" width=49% align="center" />
+</p>
 
 Finally, in order to make sure the unwired portion of the sensor is close to the wired portion of the sensor, I used a wood block and mounted the unwired part of the sensor onto it with two wood screws to hold it in place.
 
