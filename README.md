@@ -24,7 +24,12 @@ Next, I wanted a mounting system that provided a mounting platform for the ESP32
   <img src="3dprints/Images/MountSystemIRL.jpg" width=49% align="center" />
 </p>
 
-Finally, in order to make sure the unwired portion of the sensor is close to the wired portion of the sensor, I used a wood block and mounted the unwired part of the sensor onto it with two wood screws to hold it in place.
+Finally, in order to make sure the unwired portion of the sensor is close to the wired portion of the sensor to avoid sensor misreadings, I used a wood block and mounted the unwired part of the sensor onto it with two wood screws to hold it in place.
+<p align="left">
+  <img src="3dprints/Images/WoodScrews.jpg" width=49% align="center" />
+  <img src="3dprints/Images/WoodTestFit.jpg" width=49% align="center" />
+</p>
+
 
 With the hardware done, it was time to move onto the electrical and software components of the project.
 
