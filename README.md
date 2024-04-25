@@ -1,4 +1,4 @@
-d# ESP32-Garage-Door-Sensor
+# ESP32-Garage-Door-Sensor
 
 Whenever I step inside the house after playing basketball in my driveway, my parents always ask me: "Did you close the garage door?" It's always a painful and unnecessary task for me to go back and check, so I decided to do something to end this chronic misery. 
 
@@ -7,15 +7,15 @@ Using an ESP32 microcontroller, along with a hall effect sensor, I decided to cr
 ## Hardware
 In January, I began building my new Prusa MK3s+ 3D Printer. However, me being the busy junior I am, never got a chance to finish it. So, I spent the first day of my Spring Break racing to finish the printer. And finally, at 1 in the morning on the Sunday before break week, it was ready to go.
 <p align="left">
-  <img src="3dprints/Images/3dprinter.jpg" width=50% align="center" />
-  <img src="3dprints/Images/IMG_0114.JPG" width=50% align="center" />
+  <img src="3dprints/Images/3dprinter.jpg" width=49% align="center" />
+  <img src="3dprints/Images/IMG_0114.JPG" width=49% align="center" />
 </p>
 
 
 Since the garage (especially the specific corner of the garage) always gets dusty fast, and to protect the ESP32 in general, my first priority was to create a case for the ESP32 in order to ensure it was shielded from the elements. I used onshape to CAD a 3D printed case for it (left), and then set my new 3D printer to work. I was quite impressed with how well the parts were printed, esepecially with the engraved "ESP32" on the cover. They both turned out great! (right)
 <p align="left">
-  <img src="3dprints/Images/bottomboximg.png" width=50% align="center" />
-  <img src="3dprints/Images/printed_parts.jpg" width=50% align="center" />
+  <img src="3dprints/Images/bottomboximg.png" width=49% align="center" />
+  <img src="3dprints/Images/printed_parts.jpg" width=49% align="center" />
 </p>
 
 Next, I wanted a mounting system that provided a mounting platform for the ESP32 case and the wired half of the hall effect sensor. I CADded a mounting system that achieved these goals while also fitting the size constraints needed to fit in the small corner of the door. 
