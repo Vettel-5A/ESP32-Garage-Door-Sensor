@@ -5,7 +5,7 @@ Whenever I step inside the house after playing basketball in my driveway, my par
 Using an ESP32 microcontroller, along with a hall effect sensor, I decided to create a garage door notification system, in which I would be notified whenever the state of the garage door changes (ex. from open to closed or vice versa). 
 
 ## Hardware
-In January, I began building my new Prusa MK3s+ 3D Printer. However, me being the busy junior I am, never got a chance to finish it. So, I spent the first day of my Spring Break racing to finish the printer. And finally, at 1 in the morning on the Sunday before break week, it was ready to go.
+In January, I began building my new Prusa MK3s+ 3D Printer. However, me being the busy junior I am, I never got a chance to finish it. So, I spent the first day of my Spring Break racing to finish the printer. And finally, at 1 in the morning on the Sunday before break week, it was ready to go.
 <p align="left">
   <img src="3dprints/Images/3dprinter.jpg" width=49% align="center" />
   <img src="3dprints/Images/IMG_0114.JPG" width=49% align="center" />
@@ -43,7 +43,7 @@ I wanted the ESP32 to send a WhatsApp message to my phone whenever it detects a 
 Looking at the pinout diagram on the ESP32 (from the Adafruit website https://learn.adafruit.com/adafruit-esp32-feather-v2/pinouts) I used pin 2 to control the power and color of the Neopixel LED on the ESP32, and pin 34 to read from the hall effect sensor. 
 
 ![Garage Door Sensor Code](garageDoorSensor.py)
-(add video)
+[Video](https://www.youtube.com/watch?v=eUH2-IQvsOA)
 
 
 
