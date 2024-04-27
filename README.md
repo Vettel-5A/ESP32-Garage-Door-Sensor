@@ -45,8 +45,9 @@ Looking at the pinout diagram on the ESP32 (from the Adafruit website https://le
 ![Garage Door Sensor Code](garageDoorSensor.py)
 
 ## Testing!!
-[![Video](https://img.youtube.com/vi/eUH2-IQvsOA/maxresdefault.jpg)](https://youtu.be/eUH2-IQvsOA)
-
+<p width=49% align="center">
+  [![Video](https://img.youtube.com/vi/eUH2-IQvsOA/maxresdefault.jpg)](https://youtu.be/eUH2-IQvsOA)
+</p>
 
 
 
