@@ -35,7 +35,7 @@ With the hardware done, it was time to move onto the electrical and software com
 
 ## Electrical
 <p align="center" style="background: white">
-  <img src="circuit.svg" width=49% align="center"/>
+  <img src="./circuit.svg" width=49% align="center"/>
 </p>
 (wiring diagram here)
 
