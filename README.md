@@ -34,7 +34,7 @@ Finally, in order to make sure the unwired portion of the sensor is close to the
 With the hardware done, it was time to move onto the electrical and software components of the project.
 
 ## Electrical
-I connected the ESP32 to the hall effect sensor with wire connectors and some soldering. This was my first time soldering, so I was really excited. 
+
 (wiring diagram here)
 
 ## Software
