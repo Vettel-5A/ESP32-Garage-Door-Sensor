@@ -34,7 +34,7 @@ Finally, in order to make sure the unwired portion of the sensor is close to the
 With the hardware done, it was time to move onto the electrical and software components of the project.
 
 ## Electrical
-<p align="center">
+<p align="center" style="background: white">
   <img src="circuit.svg" width=49% align="center"/>
 </p>
 (wiring diagram here)
