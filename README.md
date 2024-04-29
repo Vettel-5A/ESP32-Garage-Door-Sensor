@@ -5,7 +5,7 @@ Whenever I step inside the house after playing basketball in my driveway, my par
 Using an ESP32 microcontroller, along with a Reed Switch, I decided to create a garage door notification system, in which I would be notified whenever the state of the garage door changes (ex. from open to closed or vice versa). 
 
 ## Hardware
-In January, I began building my new Prusa MK3s+ 3D Printer. However, me being the busy junior I am, I never got a chance to finish it. So, I spent the first day of my Spring Break racing to finish the printer. And finally, at 1 in the morning on the Sunday before break week, it was ready to go.
+In January, I began building my new Prusa MK3s+ 3D Printer. However, with me being the busy junior I am, I never got a chance to finish it. So, I spent the first day of my Spring Break racing to finish the printer. And finally, at 1 in the morning on the Sunday before break week, it was ready to go.
 <p align="left">
   <img src="3dprints/Images/3dprinter.jpg" width=49% align="center" />
   <img src="3dprints/Images/IMG_0114.JPG" width=49% align="center" />
