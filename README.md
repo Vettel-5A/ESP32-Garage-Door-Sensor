@@ -53,12 +53,6 @@ Looking at the pinout diagram on the ESP32 (from the Adafruit website https://le
 Click on the image below to view the video
   [![Video](https://img.youtube.com/vi/eUH2-IQvsOA/maxresdefault.jpg)](https://youtu.be/eUH2-IQvsOA)
 
-
-
-
-Using an ESP32 microcontroller, I created a garage door sensor that notifies 
-ESP32 Beginner project to detect state of a garage door and send Whatsapp notifications.
-
 ## References
 
 - https://docs.micropython.org/en/latest/search.html?q=neopixel&check_keywords=yes&area=default
