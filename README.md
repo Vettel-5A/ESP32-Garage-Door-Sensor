@@ -40,7 +40,7 @@ Power is delivered to the ESP32 through a USB type C cable connected to a wall o
 <p align="center" style="background: white">
   <img src="./circuit.svg" width=49% align="center"/>
 </p>
-(wiring diagram here)
+
 
 ## Software
 I wanted the ESP32 to send a WhatsApp message to my phone whenever it detects a change in the state of the door. So, I decided to create a continuous loop that compares a prior state to a current state, and sends a message to my phone when the prior and current state differ. The two possible states in this situation are an open door and a closed door . In addition to sending a message to my phone, the ESP32 gives a visual indicator as to whether it detects a closed or open door state through controllng its neopixel. The neopixel LED blinks green if it detects a closed door, and a flashes red if it detects an open door. Finally, in order to send messages from the ESP32 to my phone, the program on the microcontroller connects to the home Wifi to access the internet, and uses CallMeBot's API in order to send the message to my phone.
